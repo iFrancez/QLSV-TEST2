@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="QLSV">
+  <DataContextMoniker Name="/QLSVDataContext" />
+  <nestedChildShapes>
+    <classShape Id="2d7fc04f-9739-46fa-89d6-b139b9144efc" absoluteBounds="3.5, 0.875, 2, 1.9631982421875">
+      <DataClassMoniker Name="/QLSVDataContext/HocSinh" />
+      <nestedChildShapes>
+        <elementListCompartment Id="04aa60e3-f565-4a11-be03-bb69f10f3814" absoluteBounds="3.515, 1.335, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="8a3231ef-cf86-4923-9d29-32dfa4623ba7" absoluteBounds="0.75, 1.25, 2, 1.3862939453125">
+      <DataClassMoniker Name="/QLSVDataContext/Lop" />
+      <nestedChildShapes>
+        <elementListCompartment Id="3242661f-c531-4563-bd2c-63cabcf082c6" absoluteBounds="0.765, 1.71, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(2.75 : 1.94314697265625); (3.5 : 1.94314697265625)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/QLSVDataContext/Lop/Lop_HocSinh" />
+      <nodes>
+        <classShapeMoniker Id="8a3231ef-cf86-4923-9d29-32dfa4623ba7" />
+        <classShapeMoniker Id="2d7fc04f-9739-46fa-89d6-b139b9144efc" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>
